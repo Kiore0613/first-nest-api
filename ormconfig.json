@@ -1,10 +1,11 @@
 {
-    "type": "mysql",
-    "host": "localhost",
-    "port": 3306,
-    "username": "kiore",
-    "password": "Admin1234",
-    "database": "nest_api",
-    "entities": ["dist/**/*.entity{.ts,.js}"],
-    "synchronize": true
-  }
+  "type": "mysql",
+  "host": "carebook-db-mysql-do-user-8598233-0.b.db.ondigitalocean.com",
+  "port": 25060,
+  "logging": true,
+  "username": "kiore",
+  "password": "v781qrp5019obwwc",
+  "database": "defaultdb",
+  "entities": ["dist/**/*.entity{.ts,.js}"],
+  "synchronize": true
+}
